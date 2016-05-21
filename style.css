@@ -1,0 +1,25 @@
+body {
+  background-image: url('bg-0.svg'), url('bg-1.svg');
+}
+
+html, body, .container {
+  height: 100%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  text-align: center;
+  font-size:160px;
+  font-family:"Apercu Light", "Helvetica Neue", Helvetica, sans-serif;
+  letter-spacing: -0.05em;
+  color: #808088;
+
+  /* Font Smoothing */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
